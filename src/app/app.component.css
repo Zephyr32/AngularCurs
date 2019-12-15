@@ -1,0 +1,49 @@
+.btn-download {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+/*.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}*/
+body{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+.btn-circle {
+  background-color: #333333;
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0px 0px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.btn-circle img {
+  width: 40px;
+  height: 40px;
+  padding: 0px 0px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.card {
+  width: 18rem;
+}

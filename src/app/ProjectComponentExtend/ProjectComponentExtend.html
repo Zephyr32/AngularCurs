@@ -1,0 +1,13 @@
+<div class="card-body">
+    <div class="card-title">Name: {{pr.name}}</div>
+    <br />
+    <label>Theme: {{pr.theme}}</label>
+    <br />
+    <label>Extention: {{pr.extension}}</label>
+    <br />
+    <div>Description: {{pr.description}}</div>
+    <br />
+    <button class="btn btn-secondary p-2 " (click)="downloadProject(pr);">Download</button>
+    <button class="btn btn-danger p-2 " (click)="deleteProject(pr);">Delete</button>
+    <button class="btn btn-primary p-2 " (click)="editProject(pr);" data-toggle="modal" data-target="#exampleModalCenter">Edit</button>
+  </div>

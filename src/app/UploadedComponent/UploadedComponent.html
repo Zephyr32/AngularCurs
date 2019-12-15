@@ -1,0 +1,28 @@
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle">Upload Project</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label>Name</label>
+        <br />
+        <input type="text" required minlength="3" placeholder="NameProject" class="form-control" [(ngModel)]="projectName" />
+        <label>Theme</label>
+        <br />
+        <input type="text" required minlength="2" placeholder="ThemeProject" class="form-control" [(ngModel)]="projectTheme" />
+        <label>Description</label>
+        <br />
+        <input type="text" required minlength="10" placeholder="projectDescription" class="form-control" [(ngModel)]="projectDescription" />
+        <label>File</label>
+        <br />
+        <input type="file" required="" name="file" placeholder="FileProject" (change)="fileProgress($event)" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button class="btn btn-secondary" (click)="UploadProject()">Upload</button> <!-- Загрузить проэкт -->
+      </div>
+    </div>
+  </div>
